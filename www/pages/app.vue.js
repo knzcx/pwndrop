@@ -15,7 +15,7 @@ var appHome = Vue.component("app-home", {
         <a href="/"><img src="pages/img/pwndrop-title.png" alt="pwndrop title" /></a>
     </div>
     <div class="bg-footer">
-        made by <a href="https://twitter.com/mrgretzky" target="_blank">@mrgretzky</a>
+        made by <a href="https://twitter.com/mrgretzky" target="_blank">@mrgretzky</a> modified by knz.
     </div>
     <div class="bg-version">
         version {{ version }}
