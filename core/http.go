@@ -60,7 +60,6 @@ func (s *Http) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 			}
 			fpath := filepath.Join(data_dir, "files", f.Filename)
 			fo, err := os.Open(fpath)
-			//data, err := ioutil.ReadFile(fpath)
 			if err != nil {
 				log.Error("http: file: %s: %s (%s)", f.Filename, err, from_ip)
 				return
